@@ -63,7 +63,7 @@ Supported arguments:
 ## 其他经历
 
 ### __修复opencv部分代码bug__ `京东`
-- 正在修复`cv::undistortPoint`算法bug;
+- 修复了`cv::undistortPoint`算法bug, 并编写相应的测试程序;
 - 撰写定量评估相机标参数的程序.
 
 ### __担任北京交通大学Robocon小组指导老师__ `北京交通大学`
