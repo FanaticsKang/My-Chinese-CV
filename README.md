@@ -1,4 +1,4 @@
-[my CV Link](https://fanaticskang.github.io/my-markdown-cv/)
+[my CV Link](https://fanaticskang.github.io/My-Chinese-CV/)
 
 nimo-markdown-cv
 ================
