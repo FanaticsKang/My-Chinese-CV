@@ -34,23 +34,30 @@ Supported arguments:
 - 自动化系 `学士学位`
 
 ## 项目及研究经历
+### __多传感器融合定位算法__ `纵目`
+- 融合了IMU, 轮速, 毫米波雷达, 视觉的定位结果;
+- 使用卡方校验剔除坏点;
+- 负责代码的审核工作;
+- 负责代码的优化工作.
+
 ### __多目视觉SLAM__ `纵目`
-- 负责多目视觉SLAM的开发工作.
+- 负责多目视觉SLAM的方案设计和工程实现;
+- 使用车轮里程约束尺度;
+- 负责多目视觉SLAM算法的硬件移植工作;
+- 负责多目视觉系统的在线标定工作;
+- 指导多目视觉SLAM的稠密建图.
 
 ### __无人配送车(ROVER 5.0)__ `京东`
 - 负责开发激光视觉里程计算法模块;
 - 负责编写第五代无人配送车定位算法和系统之间的线程调度模块;
-- 参与编写第五代无人配送车部分系统模块编写.
+- 参与编写第五代无人配送车部分系统模块编写;
+- 修复了相关的OpenCV Bug.
 
 ### __超市购物机器人(Version 2.0)__  `京东`
 - 负责车辆跟随功能的编写和调试.
 - 参与视觉建图模块的编写和调试;
 - 参与激光建图模块的编写和调试;
-
-### __CAD 与数据库的软件接口__  `华陆`
-- 负责 CAD 与数据库数据的交互软件的开发;
-- 负责智能仪表敷设图的产品设计和功能实现;
-- 负责仪表产品数据编码工作.
+- 修复了OpenCV的Bug.
 
 ### __视觉SLAM算法研究__ `北京交通大学`
 - 通过 SURF 角点提取/匹配提高视觉 SLAM 的匹配准确性;
@@ -97,13 +104,14 @@ Supported arguments:
 
 ## 发表论文
 
-### [1] __Yifei Kang__, Yongduan Song, Yu Song, and Deli Yan, Square-Root Cubature Kalman Filter and Its Application to SLAM of a Mobile Robot. Robot,2013(2),186-193;
-### [2] __Yifei Kang__, Yongduan Song, Yu Song, and Deli Yan, SLAM without odometer. Journal of ZHEJIANG University, in press.
-### [3] Y Song, Q L Li, __Y F Kang__ and Deli Yan. Effective cubature FastSLAM: SLAM with Rao-Blackwellized particle filter and cubature rule for Gaussian weighted integral, Aug 2013.
-### [4] Y Song, Q L Li, __Y F Kang__ and Y D Song, CFastSLAM: a new Jacobian free solution to SLAM problem. International Conference on Robotics and Automation (ICRA), 2012, 3063-3068.
-### [5] Y Song, Q L Li, Deli Yan and __Y F Kang__, Robust Visual Tracking with Classifier-like appearance Model and Entropy Particle Filter, Processing of the 10 th World Congress on Intelligent Control and Automation, 2012, 4853-4858.
-### [6] Y.D Song, W.C Cai, __Y F Kang__ and Danyong Li, A System to Prevent the Controller from the Impact, invention patent.
-### [7] Y.D song, __Y F Kang__ and Lei Wang, Real-Time Localization System without GPS for High Speed Train, invention patent.
+### [1] __Yifei Kang__, Yongduan Song, Yu Song, and Deli Yan, Stereo Visual Odometry Algorithm with Rotation-Translation Decoupling for Dynamic EnvironmentsSquare-Root Cubature Kalman Filter and Its Application to SLAM of a Mobile Robot. Robot,2014, 36(3), 758-768;
+### [2] __Yifei Kang__, Yongduan Song, Yu Song, and Deli Yan, Square-Root Cubature Kalman Filter and Its Application to SLAM of a Mobile Robot. Robot,2013, 35(2),186-193;
+### [3] __Yifei Kang__, Yongduan Song, Yu Song, and Deli Yan, SLAM without odometer. Journal of ZHEJIANG University, 2014, 48(3): 414-422.
+### [4] Y Song, Q L Li, __Y F Kang__ and Y D Song, CFastSLAM: a new Jacobian free solution to SLAM problem. International Conference on Robotics and Automation (__ICRA__), 2012, 3063-3068.
+### [5] Y Song, Q L Li, __Y F Kang__ and Deli Yan. Effective cubature FastSLAM: SLAM with Rao-Blackwellized particle filter and cubature rule for Gaussian weighted integral, Aug 2013.
+### [6] Y Song, Q L Li, Deli Yan and __Y F Kang__, Robust Visual Tracking with Classifier-like appearance Model and Entropy Particle Filter, Processing of the 10 th World Congress on Intelligent Control and Automation, 2012, 4853-4858.
+### [7] Y.D Song, W.C Cai, __Y F Kang__ and Danyong Li, A System to Prevent the Controller from the Impact, invention patent.
+### [8] Y.D song, __Y F Kang__ and Lei Wang, Real-Time Localization System without GPS for High Speed Train, invention patent.
 
 
 <!-- ### Footer
