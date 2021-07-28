@@ -17,7 +17,7 @@ Supported arguments:
 
 ## 工作及教育经历
 ### __长安汽车__ `2020.11-`
-- 自动驾驶高精度定位专家，高精度定位算法总监 
+- 自动驾驶高精度定位&地图专家，高精度定位算法总监 
 
 ### __纵目科技__ `2019.7-2020.10`
 - 定位算法高级工程师   
@@ -37,6 +37,18 @@ Supported arguments:
 - 自动化系 `学士学位`
 
 ## 项目及研究经历
+### __多目视觉SLAM (已量产)__ `纵目`
+- **成果被 IROS 2021 收录**;
+- 负责多目视觉系统的建图与定位算法;
+- 负责多目视觉系统的在线标定工作;
+- 指导多目视觉SLAM的半稠密建图;
+- 完善g2o功能， Pull Request #402.
+
+### __城区场景众包建图__ `长安`
+- 设计用于城区场景的众包建图方案；
+- 使用众包地图进行城区场景的定位；
+- 打通城区场景，高速场景和停车场场景的定位。
+
 ### __语义定位算法__ `长安`
 - 设计基于高速场景的语义定位算法;
 - 设计基于停车场环境的语义定位算法.
@@ -51,12 +63,6 @@ Supported arguments:
 - 使用车轮里程约束尺度;
 - 测试long-term场景下的定位效果.
 - 负责SLAM的方案设计和工程实现.
-
-### __多目视觉SLAM (已量产)__ `纵目`
-- 负责多目视觉系统的建图与定位算法;
-- 负责多目视觉系统的在线标定工作;
-- 指导多目视觉SLAM的半稠密建图;
-- 完善g2o功能， Pull Request #402.
 
 ### __基于Manhattan世界的视觉SLAM研究__ `纵目`
 - 对于停车场场景进行Manhattan世界估计;
@@ -99,6 +105,9 @@ Supported arguments:
 
 ## 其他经历
 
+### __修复msckf部分代码bug__ `长安`
+- msckf pull request #116, The error of state augmentation.
+
 ### __完善g2o代码__ `纵目`
 - g2o Pull Request #402, g2o::EdgeSim3::linearizeOplus.
 
@@ -133,14 +142,15 @@ Supported arguments:
 
 ## 发表论文
 
-### [1] __Yifei Kang__, Yongduan Song, Yu Song, and Deli Yan, Stereo Visual Odometry Algorithm with Rotation-Translation Decoupling for Dynamic EnvironmentsSquare-Root Cubature Kalman Filter and Its Application to SLAM of a Mobile Robot. Robot,2014, 36(3), 758-768;
-### [2] __Yifei Kang__, Yongduan Song, Yu Song, and Deli Yan, Square-Root Cubature Kalman Filter and Its Application to SLAM of a Mobile Robot. Robot,2013, 35(2),186-193;
-### [3] __Yifei Kang__, Yongduan Song, Yu Song, and Deli Yan, SLAM without odometer. Journal of ZHEJIANG University, 2014, 48(3): 414-422.
-### [4] Y Song, Q L Li, __Y F Kang__ and Y D Song, CFastSLAM: a new Jacobian free solution to SLAM problem. International Conference on Robotics and Automation (__ICRA__), 2012, 3063-3068.
-### [5] Y Song, Q L Li, __Y F Kang__ and Deli Yan. Effective cubature FastSLAM: SLAM with Rao-Blackwellized particle filter and cubature rule for Gaussian weighted integral, Aug 2013.
-### [6] Y Song, Q L Li, Deli Yan and __Y F Kang__, Robust Visual Tracking with Classifier-like appearance Model and Entropy Particle Filter, Processing of the 10 th World Congress on Intelligent Control and Automation, 2012, 4853-4858.
-### [7] Y.D Song, W.C Cai, __Y F Kang__ and Danyong Li, A System to Prevent the Controller from the Impact, invention patent.
-### [8] Y.D song, __Y F Kang__ and Lei Wang, Real-Time Localization System without GPS for High Speed Train, invention patent.
+### [1] __Yifei Kang__, Yu Song, WuWei Ge and Tong Ling, Robust Multi-Camera SLAM with Manhattan Constraint Toward Automated Valet Parking. International Conference on Intelligent Robots and Systems(IROS), 2021, accepted.
+### [2] __Yifei Kang__, Yongduan Song, Yu Song, and Deli Yan, Stereo Visual Odometry Algorithm with Rotation-Translation Decoupling for Dynamic EnvironmentsSquare-Root Cubature Kalman Filter and Its Application to SLAM of a Mobile Robot. Robot,2014, 36(3), 758-768;
+### [3] __Yifei Kang__, Yongduan Song, Yu Song, and Deli Yan, Square-Root Cubature Kalman Filter and Its Application to SLAM of a Mobile Robot. Robot,2013, 35(2),186-193;
+### [4] __Yifei Kang__, Yongduan Song, Yu Song, and Deli Yan, SLAM without odometer. Journal of ZHEJIANG University, 2014, 48(3): 414-422.
+### [5] Y Song, Q L Li, __Y F Kang__ and Y D Song, CFastSLAM: a new Jacobian free solution to SLAM problem. International Conference on Robotics and Automation (__ICRA__), 2012, 3063-3068.
+### [6] Y Song, Q L Li, __Y F Kang__ and Deli Yan. Effective cubature FastSLAM: SLAM with Rao-Blackwellized particle filter and cubature rule for Gaussian weighted integral, Aug 2013.
+### [7] Y Song, Q L Li, Deli Yan and __Y F Kang__, Robust Visual Tracking with Classifier-like appearance Model and Entropy Particle Filter, Processing of the 10 th World Congress on Intelligent Control and Automation, 2012, 4853-4858.
+### [8] Y.D Song, W.C Cai, __Y F Kang__ and Danyong Li, A System to Prevent the Controller from the Impact, invention patent.
+### [9] Y.D song, __Y F Kang__ and Lei Wang, Real-Time Localization System without GPS for High Speed Train, invention patent.
 
 
 <!-- ### Footer
