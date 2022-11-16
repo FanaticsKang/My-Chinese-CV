@@ -17,7 +17,7 @@ Supported arguments:
 
 ## 工作及教育经历
 ### __长安汽车__ `2020.11-`
-- 高精度定位负责人，高精度地图技术主管
+- 高精度定位行政主管/技术主管，高精度地图技术主管
 
 ### __纵目科技__ `2019.7-2020.10`
 - 定位算法高级工程师   
@@ -29,58 +29,41 @@ Supported arguments:
 - 自控及仪表工程师
 - 软件产品开发岗
 
-### __北京交通大学__ `2010.9 - 2015.7`
+### __北京交通大学__ `2006.9 - 2015.7`
+- 自动化系 `学士学位`
 - 交通信息工程及自动化专业 `博士学位`
 - 主修课程: Multiple View Geometry in Computer Vision; FastSLAM.
 
-### __北京交通大学__ `2006.9 - 2010.7`
-- 自动化系 `学士学位`
-
 ## 项目及研究经历
-### __多目视觉SLAM (已量产)__ `纵目`
+### __多目视觉SLAM__ `纵目`
 - **成果被 IROS 2021 收录**;
 - 负责多目视觉系统的建图与定位算法;
+- 全新的算法加速Manhattan世界估计;
 - 负责多目视觉系统的在线标定工作;
-- 指导多目视觉SLAM的半稠密建图;
 - 完善g2o功能， Pull Request #402.
 
 ### __城区场景众包建图__ `长安`
-- 设计用于城区场景的众包建图方案；
-- 使用众包地图进行城区场景的定位；
-- 打通城区场景，高速场景和停车场场景的定位。
+- 设计并实现城区场景的众包建图，覆盖内容包括全部地面元素，红绿灯，地上标牌，灯杆和横杆;
+- 众包地图压缩，目前地图大小为400kb/km;
+- 使用众包地图进行城区定位；
 
-### __语义定位算法__ `长安`
-- 设计基于高速场景的语义定位算法;
-- 设计基于停车场环境的语义定位算法.
+### __基于高精度地图的高精度定位算法__ `长安`
+- 项目将于长安深蓝SL03上搭载，预计OTA时间2023.3;
+- 基于地平线J3设备完成高速上的基于高精度地图的定位；
+- 基于ICP的车道线匹配算法;
+- 基于error-state Kalman Filter的滤波;
 
-### __多传感器融合定位算法(量产中)__ `长安`
-- 设计Error state Kalman Filter模型和工程;
-- 增加了轮速尺度因子，进一步提高定位精度;
-- 测试long-term场景下的定位效果;
-- 负责EsKF设计和工程实现.
-
-### __基于Manhattan世界的视觉SLAM研究__ `纵目`
-- 对于停车场场景进行Manhattan世界估计;
-- 全新的算法加速Manhattan世界估计;
-- 估计的姿态约束多目视觉SLAM, 提升一个数量级的建图精度;
-- Audi A2D2数据集验证, 3公里, 0.37% 水平误差比例.
-
-### __基于已知轨迹的高精地图语义图层构建__ `纵目`
-- 负责停车位语义信息的多帧融合算法;
-- 根据已知图层轨迹构建语义图层;
-- 多目视觉进行停车场, (半)稠密建图.
+### __停车场自动泊车系统__ `长安`
+- 项目将于长安深蓝SL03上搭载，预计OTA时间2023.3;
+- 基于环视图像的停车场车端建图;
+- 基于停车场地图的高精度定位;
+- 解决单目相机尺度问题。
 
 ### __无人配送车(ROVER 5.0)__ `京东`
 - 负责开发激光视觉里程计算法模块;
 - 负责编写第五代无人配送车定位算法和系统之间的线程调度模块;
 - 参与编写第五代无人配送车部分系统模块编写;
 - 修复了相关的OpenCV Bug, Pull Request #14583.
-
-### __视觉SLAM算法研究__ `北京交通大学`
-- 通过 SURF 角点提取/匹配提高视觉 SLAM 的匹配准确性;
-- 通过 Cubature Kalman Filter 减少 SLAM 中非线性计算的误差;
-- 提出 Cubature (Quadrature) FastSLAM 算法, 提高的定位结果;
-- 完成 iSAM 算法和 G2O 算法在 ROS 环境下的 SLAM算法测试.
 
 ## 其他经历
 
@@ -94,28 +77,18 @@ Supported arguments:
 - Opencv Pull Request #14583, cv::undistortPoint bug;
 - 撰写定量评估相机标参数的程序.
 
-### __担任北京交通大学Robocon小组指导老师__ `北京交通大学`
-```
-2011-2013
-```
-- 指导设计基于激光雷达的全局定位算法框架;
-- 指导设计基于视觉识别的跟踪算法框架.
-
 ## 主要编程工具
 - C, C++, C#;
-- okvis, orb-slam, dso;
 - opencv, opengv, g2o, ceres, pcl;
-- blade, cmake;
+- cmake;
 
 ## 获奖情况
 
 ### 西安市D类人才 `2018`
 
-### 研究生电子设计大赛华北赛区一等奖 `2014`
-
 ## 发表论文
 
-### [1] __Yifei Kang__, Yu Song, WuWei Ge and Tong Ling, Robust Multi-Camera SLAM with Manhattan Constraint Toward Automated Valet Parking. International Conference on Intelligent Robots and Systems(IROS), 2021, 7592-7599.
+### [1] __Yifei Kang__, Yu Song, WuWei Ge and Tong Ling, Robust Multi-Camera SLAM with Manhattan Constraint Toward Automated Valet Parking. International Conference on Intelligent Robots and Systems(__IROS__), 2021, 7592-7599.
 ### [2] __Yifei Kang__, Yongduan Song, Yu Song, and Deli Yan, Stereo Visual Odometry Algorithm with Rotation-Translation Decoupling for Dynamic EnvironmentsSquare-Root Cubature Kalman Filter and Its Application to SLAM of a Mobile Robot. Robot,2014, 36(3), 758-768;
 ### [3] __Yifei Kang__, Yongduan Song, Yu Song, and Deli Yan, Square-Root Cubature Kalman Filter and Its Application to SLAM of a Mobile Robot. Robot,2013, 35(2),186-193;
 ### [4] __Yifei Kang__, Yongduan Song, Yu Song, and Deli Yan, SLAM without odometer. Journal of ZHEJIANG University, 2014, 48(3): 414-422.
