@@ -37,15 +37,16 @@ Supported arguments:
 
 ## 项目经历
 
-### __自动驾驶高精度定位技术总负责人__`长安 2022-2025`
-- 基于高精度地图的定位算法; **【量产：深蓝SL03, S7】**;
-- 带领长安汽车高精度定位方向0-1-N，实现从算法研发到量产落地的完整技术体系建设;
-- 主导量产车型的全车下线标定，售后标定和在线标定; **【量产：启源E07, Q07】**
-- 带领长安汽车标定方向0-1-N，建立完整的量产标定技术体系.
+### __Agent开发__`长安2026`
+- 已经完成，1）全自动周报agent的开发；2）自动commit提交总结agent；
+- 正在进行，全自动工程agent开发，主要包含3个：开发agent，审查agent，测试agent；
+- 计划中：1）审查标准文件的agent；2）自动化专利agent。
+- openclaw两台，nanoclaw一台。
 
-### __自动驾驶高精度建图技术总负责人__`长安 2023-2025`
+### __智能驾驶感知系统技术负责人__`长安 2022-2025`
+- 基于高精度地图的定位算法; **【量产：深蓝SL03, S7】**;
+- 主导量产车型的全车下线标定，售后标定和在线标定; **【量产：启源E07, Q07】**
 - 结构化道路众包建图与定位负责人，主导从车端传感器数据实时构建类高精地图的技术方案与落地; **【量产：启源E07】**
-- 带领长安汽车众包建图方向0-1，建立行业领先的车端建图技术体系;
 - 使用单目完成目标车位周边半稠密建图（替代OCC）。算法有效解决悬空障碍物检测难题，精准识别雨伞、乒乓球桌等极端Case，提升泊车安全性;**【量产：启源Q07】**
 - 停车场自动泊车系统（建图模块）。基于环视图像的停车场车端建图算法研发，实现低成本、高精度的场内地图构建，解决GPS信号缺失环境下的高精度定位难题，支持AVP功能量产落地。**【量产：深蓝SL03, S7】**
 
@@ -69,10 +70,11 @@ Supported arguments:
 
 ### __中国汽车工业协会委员__ `长安`
 - 2023.10.19 成为[中国汽车工业协会传感器分会委员](https://www.sae-china.org/branch/366);
-- 牵头IMU和GNSS相关7个团体标准的制定;
 - 牵头车载坐标系国家标准的制定, 目前完成[标准化调研](http://www.catarc.org.cn/upload/202312/25/202312251456042419.pdf).
+- 牵头国家标准《智能网联汽车 坐标系》的制定。
+- 北京交通大学机器人赛事两届指导老师。
 
-## 发表论文
+## 部分发表论文
 
 ### [1] __Yifei Kang__, Yu Song, WuWei Ge and Tong Ling, Robust Multi-Camera SLAM with Manhattan Constraint Toward Automated Valet Parking. International Conference on Intelligent Robots and Systems(__IROS__), 2021, 7592-7599.
 ### [2] __Yifei Kang__, Yongduan Song, Yu Song, and Deli Yan, Stereo Visual Odometry Algorithm with Rotation-Translation Decoupling for Dynamic EnvironmentsSquare-Root Cubature Kalman Filter and Its Application to SLAM of a Mobile Robot. Robot,2014, 36(3), 758-768;
