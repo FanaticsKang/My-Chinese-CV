@@ -2,7 +2,11 @@
   "permissions": {
     "allow": [
       "Bash(git add:*)",
-      "Bash(git commit:*)"
+      "Bash(*)",
+      "WebFetch(domain:openai.com)",
+      "WebSearch",
+      "Bash(curl -s \"https://openai.com/careers/research-engineer-slam-and-multi-view-geometry-san-francisco/\")",
+      "WebFetch(domain:www.linkedin.com)"
     ]
   }
 }
